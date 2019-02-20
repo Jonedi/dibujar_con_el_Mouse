@@ -1,6 +1,5 @@
 document.addEventListener("mouseenter", prepararLienzo);
 
-//document.addEventListener("mouseup", dibujarMouse);
 var cuadro = document.getElementById("area_dibujo"); //invoca el "id" de canvas en html
 var papel = cuadro.getContext ("2d"); //se obtiene el contexto
 var lienzoLimit = cuadro.getBoundingClientRect(); // Se obtiene el limite del canvas
